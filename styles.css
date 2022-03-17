@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: #33ff33;
 }
 h1 {
     text-align: center;
@@ -14,7 +16,7 @@ h1 {
 #options {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 300px;
     margin-left: 50px;
@@ -22,16 +24,19 @@ h1 {
 
 #canvas {
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
     height:600px;
     width: 600px;
 }
 
 .cell {
-    border: 1px solid black;
+    border: 1px solid #33ff33;
 }
 
-.cell:hover {
-    background-color: black;
+#clear {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+
 }
